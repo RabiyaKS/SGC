@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    
+    <title>Program</title>
+<style>
+    label{
+        color:crimson;
+    }
+</style>
+</head>
+<body>
+
+
+      <label id="txt" style="color:rgb(231, 61, 89);">WILL YOU MARRY ME????(Maryadakk yes click cheythoo!!Aaaaaaaaahhhh)</label><br>
+      <div id="options">
+      <input style="color:rgb(217, 204, 16)=" type="radio" id="yes" name="qs" value="yes">
+      <label for="yes">YES</label>
+      <input type="radio" id="no" name="qs" value="no">
+      <label for="no">NO</label><br><br>
+      <img src="download.jpg">
+      </div>
+      <button  style="color:darksalmon;" id="btn">Click me (YES paranjittt)</button>
+      <script>
+        document.getElementById("btn").addEventListener("click",function(){
+            document.getElementById("options").style.display="none";
+            document.getElementById("btn").style.display="none";
+            document.getElementById("txt").innerText ="I Love Youuuuuuuuuuu ANNIKUTTTAAA....UMMMAAA UMMAAA UMMAAA UMMMAAA.....";
+        });
+    
+      </script>
+    
+</body>
